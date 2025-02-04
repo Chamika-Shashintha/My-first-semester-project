@@ -1,0 +1,162 @@
+  /* General Styles */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-image: url('dining img/dinning.jpg'); /* Replace with a suitable dining-related image */
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 5rem;
+    text-shadow: 8px 1px rgb(0, 0, 0);
+    margin: 0;
+    text-decoration: underline overline;
+}
+
+/* Navigation */
+nav {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #4CAF50;
+}
+
+/* Main Content */
+section {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2.5em;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-bottom: 40px;
+    color: #555;
+}
+
+/* Dining Options Grid */
+.dining-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.dining-item {
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.dining-item:hover {
+    transform: translateY(-10px);
+}
+
+.dining-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.dining-item h3 {
+    font-size: 1.8em;
+    color: #4CAF50;
+    margin: 15px 0;
+    padding: 0 15px;
+}
+
+.dining-item p {
+    padding: 0 15px 15px;
+    font-size: 1em;
+    color: #666;
+}
+
+/* Popular Dishes Section */
+.popular-dishes {
+    margin-top: 60px;
+}
+
+.popular-dishes h2 {
+    font-size: 2.5em;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.dishes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.dish-item {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.dish-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.dish-item h4 {
+    font-size: 1.5em;
+    color: #4CAF50;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    margin-top: 50px;
+}

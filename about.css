@@ -1,0 +1,225 @@
+  /* General Styles */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ebeaea;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: url('about img/kurunegala1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    width: 100%;
+   
+   
+}
+
+header h1 {
+    font-size: 5rem;
+    text-shadow: 8px 1px rgb(0, 0, 0);
+    margin: 0;
+    text-decoration: underline overline;
+}
+
+/* Navigation */
+nav {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 3;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #4CAF50;
+}
+
+/* Main Content */
+section {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    height: 48rem;
+}
+
+section h2 {
+    font-size: 2.5em;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-bottom: 40px;
+    color: #555;
+    font-weight: bold;
+}
+
+/* Two-column layout for historical and cultural info */
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+     gap: 20px;
+     padding: 0 20px;
+}
+
+.info-box {
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    height: 70%;
+}
+
+.info-box:hover {
+    transform: translateY(-10px);
+}
+
+.info-box h3 {
+    color: #4CAF50;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.info-box p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 10px;
+    font-weight: bold;
+
+}
+
+/* Image sections */
+.info-box img {
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    padding-top: 0%;
+    
+}
+
+.kuru{
+    background-image: url("about img/kurunegala4.jpg");
+    overflow-y: scroll;
+    height: 650px;
+    background-size: cover;
+    
+
+    
+}
+
+.kuru2{
+    
+    padding-top: 1%;
+    background-color: rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(1px);
+    height: auto;
+}
+
+.kngl{
+    font-size: 7rem;
+    font-family: MV Boli;
+    letter-spacing: 25px;
+    padding-left: 7%;
+    margin-top: 10px;
+    text-shadow: 8px 1px rgb(36, 153, 65);
+}
+
+
+.ph2,
+.ph4,
+.ph6,
+.ph8{
+    margin-bottom: 0.1px;
+    margin-left: 50px;
+    padding: 0%;
+    color: #026605;
+    text-shadow: 2px 2px 4px #ffffff;
+    font-size: 45px;
+}
+
+
+.ph3,
+.ph5,
+.ph7,
+.ph9{
+    font-size: 40px;
+    text-align: right;
+    margin-bottom: 0.1px;
+    margin-right: 50px;
+    padding: 0%;
+    color: #026605;
+    text-shadow: 2px 2px 4px #ffffff;
+}
+
+.p1{
+    margin-bottom: 150px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}  
+
+.p2,
+.p4,
+.p6,
+.p8{
+    margin-top: 0.1px;
+   margin-left: 20px;
+   margin-right: 100px;
+   margin-bottom: 100px; 
+   font-size: 25px;
+   text-align: justify;
+   color: white;
+   text-shadow: 4px 2px 3px #000000;
+
+}
+
+.p3,
+.p5,
+.p7,
+.p9{
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 0.1px;
+   margin-left: 20px;
+   margin-bottom: 100px; 
+   font-size: 25px;
+   color: white;
+   text-shadow: 4px 2px 3px #000000;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    margin-top: 50px;
+}
